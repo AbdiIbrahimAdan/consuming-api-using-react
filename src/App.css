@@ -1,0 +1,46 @@
+.My-app{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.quote{
+  background-color: rgb(202, 171, 85);
+  width: 450px;
+  height: 320px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote h2{
+  font-size: 2rem;
+}
+.quote p{
+    font-size: 1.5rem;
+}
+.btn{
+  display: block;
+  margin-top: 20px;
+  background: transparent;
+  border:2px solid rgb(30, 184, 211);
+  padding: 10px 15px;
+  color: rgb(47, 149, 175);
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+}
+.btn:hover{
+  background: rgb(47, 149, 175);
+  color: white;
+  box-shadow: 0 9px 17px 0 rgba(0, 0, 0, 0.2),  0 7px 21px 0 rgba(0, 0, 0, 0.19);
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
